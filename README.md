@@ -12,7 +12,7 @@ This is a simple Streamlit app that lets you upload PDFs and chat with them. It 
 - **1. Clone and Install** 
 ```bash
 git clone https://github.com/SangitaSingha073/conversational-pdf-rag.git
-cd your-repo-name
+cd conversational-pdf-rag
 pip install -r requirements.txt
 ```
 - **2. Local Embeddings** You need Ollama running on your machine. Once installed, pull the embedding model:
@@ -25,6 +25,6 @@ streamlit run RAG_app.py
 ```
 
 ## What you'll need
-- A Groq API Key ([Get your Groq API Key here](https://console.groq.com/)
+- A Groq API Key ([Get your Groq API Key here](https://console.groq.com/))
 - Ollama installed and running locally.
 
